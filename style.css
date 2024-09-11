@@ -1,0 +1,61 @@
+.header__color {
+  background-color: rgb(241, 241, 241) ;
+}
+
+.primary__bg {
+  background-color: rgb(224, 224, 224);
+}
+
+.hover-item {
+  transition: all 0.5s ease;
+}
+
+.hover-item:hover .text-dark {
+  color: #c59777 !important;
+}
+
+.hover-item {
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+
+.hover-item:hover {
+  border-bottom: 2px solid #c59777;
+}
+
+.container .row img {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #c59777 !important;
+  border: #c59777 !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    color: red;
+    font-size: 20px;
+  }
+
+  .row {
+    gap: 1rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .row {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 376px) {
+  h6 {
+    gap: 1rem;
+  }
+}
